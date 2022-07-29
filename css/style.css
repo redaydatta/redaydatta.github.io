@@ -41,6 +41,9 @@ body {
 .custom-text-size-1 {
     font-size: 45px;
 }
+.custom-text-size-2 {
+    font-size: 40px;
+}
 .vertical-center {
     margin: 0;
     position: absolute;
@@ -73,7 +76,21 @@ body {
     color: #d6002f;
     border-color: #fff;
 }
-
+.about {
+    background-color: #191c26;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+}
+.about p, .about h2 {
+    font-weight: normal;
+    color: #a9afc3;
+}
+.about img {
+    max-width: 400px;
+    max-height: 500px;
+    border-radius: 10px;
+}
 
 
 
@@ -84,9 +101,17 @@ body {
         text-align: center;
         margin-top: 30px;
       }
-      .profile .vertical-center h1, .profile .vertical-center h2{
+      .vertical-center h1, .vertical-center h2{
         font-size: 30px;
       }
+      .social {
+        width: 248px;
+        margin: 0 auto;
+    }
+    .about h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
   }
 
 
