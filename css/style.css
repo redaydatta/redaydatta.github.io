@@ -78,18 +78,45 @@ body {
 }
 .about {
     background-color: #191c26;
-    color: #fff;
+    color: #a9afc3;
     font-weight: 700;
     position: relative;
 }
 .about p, .about h2 {
     font-weight: normal;
-    color: #a9afc3;
+    color: #fff;
+}
+.about p {
+    font-size: 20px;
 }
 .about img {
     max-width: 400px;
     max-height: 500px;
     border-radius: 10px;
+}
+.about h2 {
+    font-size: 25px;
+}
+#skills h1{
+    color: #fff;
+}
+#skills .progress {
+    background-color: #191c26;
+    margin-bottom: 30px;
+}
+#skills .progress-bar {
+    background-color: #d6002f;
+}
+#skills h1{
+    color: #a9afc3;
+}
+#skills p {
+    color: #fff;
+    font-size: 18px;
+    
+}
+#portfolio {
+    background-color: #191c26;
 }
 
 
