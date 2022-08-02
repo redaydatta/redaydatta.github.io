@@ -118,7 +118,53 @@ body {
 #portfolio {
     background-color: #191c26;
 }
+#portfolio img{
+    display: block;
+	min-height: 250px;
+    border: 1px solid #a9afc3;
+    border-radius: 7px;
+    opacity: 0.7;
+}
 
+#portfolio a {
+    position: relative;
+}
+#portfolio .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d6002f;
+}
+#portfolio a:hover .overlay {
+    opacity: 0.6;
+}
+.about-prot {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+.about-prot .info {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.about-prot .info p {
+    font-size: 14px;
+    font-weight: normal;
+}
 
 
 @media screen and (max-width: 767px) {
