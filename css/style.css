@@ -122,8 +122,7 @@ body {
     display: block;
 	min-height: 250px;
     border: 1px solid #a9afc3;
-    border-radius: 7px;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 #portfolio a {
@@ -159,11 +158,35 @@ body {
     border: 2px solid #fff;
     color: #fff;
     padding: 10px;
-    border-radius: 5px;
 }
 .about-prot .info p {
     font-size: 14px;
     font-weight: normal;
+}
+
+#contact h5 {
+    color: #fff;
+}
+#contact i {
+    color: #d6002f;
+}
+input, textarea {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background-color: transparent;
+    font-size: 18px;
+    color: #a9afc3;
+}
+input:focus, textarea:focus {
+    outline: none;
+    background-color: transparent;
+    border-bottom-color: rgba(255,255,255,.5);
+}
+footer {
+    background-color: #191c26;
+    color: #d6002f;
 }
 
 
@@ -183,7 +206,10 @@ body {
     }
     .about h1 {
         font-size: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+    }
+    #skills h1 {
+        font-size: 30px;
     }
   }
 

@@ -53,4 +53,7 @@ window.onload = function() {
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #d6002f}";
     document.body.appendChild(css);
+
+    // dynamic year
+    document.getElementById('year').innerHTML = new Date().getFullYear();
 };
