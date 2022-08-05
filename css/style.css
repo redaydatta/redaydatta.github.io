@@ -38,6 +38,14 @@ body {
 .profile h1 {
     color: #d6002f;
 }
+.profile h2:hover {
+    font-size: 50px;
+    transition: 1s;
+}
+.profile h1:hover {
+    font-size: 48px;
+    transition: 1s;
+}
 .custom-text-size-1 {
     font-size: 45px;
 }
@@ -56,6 +64,11 @@ body {
     height: 300px;
     border-radius: 50%;
     border: 4px solid #d6002f;
+}
+.profile img:hover {
+    width: 315px;
+    height: 315px;
+    transition: 1s;
 }
 .btn-outline-white-red {
     border: 2px solid #fff;
@@ -199,6 +212,9 @@ footer {
       }
       .vertical-center h1, .vertical-center h2{
         font-size: 30px;
+      }
+      .vertical-center h1:hover, .vertical-center h2:hover {
+        font-size: 35px;
       }
       .social {
         width: 248px;
